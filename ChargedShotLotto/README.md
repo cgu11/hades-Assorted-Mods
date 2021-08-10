@@ -1,0 +1,1 @@
+This mod, when Beowulf is selected, gives you charged shot as your first reward, and gives you a random cast boon in every room.

@@ -1,0 +1,1 @@
+This mod creates a custom Asphodel, with valuable rewards, but a guaranteed encounter with the Barge of Death, which has been... enhanced in a number of ways.

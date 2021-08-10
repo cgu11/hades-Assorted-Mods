@@ -1,0 +1,1 @@
+All of these mods require [`modimporter.py`](https://github.com/SGG-Modding/sgg-mod-modimporter/tree/06d853039442de6cd728cdc210bf57c192fbe368) and [ModUtil](https://github.com/SGG-Modding/sgg-mod-modutil). Instructions in use can be found in the Hades Modding Discord or on Nexus Mods pages for those mods.

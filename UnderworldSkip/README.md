@@ -1,0 +1,1 @@
+This mod, when used with a new file, skips every chamber after chamber 1 and takes you right to the final boss. If you set the `AthenaRoom` config parameter in `UnderworldSkip.lua` to `true`, then you will encounter 1 Athena boon before being sent to the surface.

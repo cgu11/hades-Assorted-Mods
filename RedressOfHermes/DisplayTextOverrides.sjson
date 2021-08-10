@@ -1,0 +1,109 @@
+{
+    Texts = [
+        "_append"
+        {
+        Id = "BonusDashTrait"
+        DisplayName = "Leastest Reflex"
+        Description = "You can {$Keywords.Dash} 1 time."
+        }
+        {
+        Id = "AmmoReclaimTrait"
+        DisplayName = "Slow Reload"
+        Description = "Foes drop {!Icons.Ammo} stuck in them slower. \n {!Icons.Bullet}{#PropertyFormat}Drop Time: \Column 380 {#UpgradeFormat}{$TooltipData.DisplayDelta1} {#UpgradeFormat}Sec."
+        }
+        {
+        Id = "AmmoReclaimTrait_Initial"
+        InheritFrom = "AmmoReclaimTrait"
+        Description = "Foes drop {!Icons.Ammo} stuck in them slower. \n {!Icons.Bullet}{#PropertyFormat}Drop Time: \Column 380 {#PreviousFormat}{$TooltipData.NewTotal1} {#UpgradeFormat}Sec."
+        }
+        {
+        Id = "AmmoReclaimTrait_Tray"
+        InheritFrom = "AmmoReclaimTrait"
+        Description = "Foes drop {!Icons.Ammo} stuck in them slower. \n {!Icons.Bullet}{#PropertyFormat}Drop Time: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipTotalAmmoDelay} {#UpgradeFormat}Sec."
+        }
+        {
+        Id = "RapidCastTrait"
+        DisplayName = "Slothful Cast"
+        Description = "Hold {$Keywords.Cast} to fire in slow succession. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Cast} Speed: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipSpeedIncrease:P}"
+        }
+        {
+        Id = "RushSpeedBoostTrait"
+        DisplayName = "Hypo Sprint"
+        Description = "After you {$Keywords.Dash}, briefly become less Sturdy, take 30% extra damage, and move {#BoldFormatGraft}{$TooltipData.TooltipSpeedBoost:P} {#PreviousFormat} faster. \n {!Icons.Bullet}{#PropertyFormat}Sprint Duration: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDuration} Sec."
+        }
+        {
+        Id = "MoveSpeedTrait"
+        DisplayName = "Lesser Haste"
+        Description = "You move slower. \n {!Icons.Bullet}{#PropertyFormat}Move Speed: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipSpeed}%"
+        }
+        {
+        Id = "RushRallyTrait"
+        DisplayName = "Quick Damage"
+        Description = "After taking damage, quickly {$Keywords.Dash} to lose more than {!Icons.Health_Small_Tooltip} you just lost. \n {!Icons.Bullet}{#PropertyFormat}Life Drained: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipHeal}% {#PreviousFormat}{#ItalicFormat}of damage taken"
+        }
+        {
+        Id = "DodgeChanceTrait"
+        DisplayName = "Lesser Evasion"
+        Description = "Whenever you are hit, you lose a chance to {$Keywords.Dodge} automatically. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Dodge} Chance: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipChance:P}"
+        }
+        {
+        Id = "HermesWeaponTrait"
+        DisplayName = "Slow Strike"
+        Description = "Your {$Keywords.Attack} is slower. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Attack} Speed: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipSpeedIncrease:P}"
+        }
+        {
+        Id = "HermesSecondaryTrait"
+        DisplayName = "Slow Flourish"
+        Description = "Your {$Keywords.Special} is slower. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Special} Speed: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipSpeedIncrease:P}"
+        }
+        {
+        Id = "HermesShoutDodge"
+        DisplayName = "Foul Wind"
+        Description = "After using {$Keywords.Wrath}, lose {$Keywords.Dodge} chance and move speed for {#BoldFormatGraft}{$TooltipData.TooltipDuration} Sec.{#PreviousFormat} \n {!Icons.Bullet}{#PropertyFormat}Bonus Dodge Chance & Move Speed: \Column 380 {#PreviousFormat}{$TooltipData.NewTotal1}"
+        }
+        {
+        Id = "AmmoReloadTrait"
+        DisplayName = "Eventual Reload"
+        Description = "You regenerate {!Icons.Ammo} slower. \n {!Icons.Bullet}{#PropertyFormat}Regeneration Time: \Column 380 {#UpgradeFormat}{$TooltipData.DisplayDelta1} {#UpgradeFormat}Sec."
+        }
+        {
+        Id = "AmmoReloadTrait_Initial"
+        InheritFrom = "AmmoReloadTrait"
+        Description = "You regenerate {!Icons.Ammo} slower. \n {!Icons.Bullet}{#PropertyFormat}Regeneration Time: \Column 380 {#PreviousFormat}{$TooltipData.NewTotal1} {#UpgradeFormat}Sec."
+        }
+        {
+        Id = "AmmoReloadTrait_Tray"
+        InheritFrom = "AmmoReloadTrait"
+        Description = "You regenerate {!Icons.Ammo} slower. \n {!Icons.Bullet}{#PropertyFormat}Regeneration Time: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipTotalAmmoDelay} {#UpgradeFormat}Sec."
+        }
+        {
+        Id = "RegeneratingSuperTrait"
+        DisplayName = "Quick Punishment"
+        Description = "Your {$Keywords.WrathGauge} drains automatically. \n {!Icons.Bullet}{#PropertyFormat}Auto Gauge Drain: \Column 380 {#UpgradeFormat}-1% {#PreviousFormat}{#ItalicFormat}(every {$TooltipData.TooltipInterval} Sec.)"
+        }
+        {
+        Id = "ChamberGoldTrait"
+        DisplayName = "Income Tax"
+        Description = "Each time you enter a {$Keywords.RoomAlt}, lose a bit of wealth. \n {!Icons.Bullet}{#PropertyFormat}Lost Wealth per {$Keywords.RoomAlt}: \Column 380 {#UpgradeFormat}{$TooltipData.MoneyPerRoom} {!Icons.Currency_Small}"
+        }
+        {
+        Id = "GoldPerRoomText"
+        DisplayName = "{#CombatTextHighlightFormat}{$TempTextData.TraitName}: {#PreviousFormat}{#UseMoneyFormat}-{$TempTextData.Amount}{!Icons.Currency_Small}"
+        }    
+        {
+        Id = "SpeedDamageTrait"
+        DisplayName = "Delayed Delivery"
+        Description = "You deal more/less damage based on any move speed changes. \n {!Icons.Bullet}{#PropertyFormat}Damage Change From Speed: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipBonus}%"
+        }
+        {
+        Id = "MagnetismTrait"
+        DisplayName = "Lost In Translation"
+        Description = "Your {!Icons.Ammo} will not return for the entire chamber."
+        }
+        {
+        Id = "UnstoredAmmoDamageTrait"
+        DisplayName = "Actual Bad News"
+        Description = "Your {$Keywords.Cast} deals less damage to foes {#ItalicFormat}without {#PreviousFormat}{!Icons.Ammo} in them. \n {!Icons.Bullet}{#PropertyFormat}First-Shot Penalty: \Column 380 {#PreviousFormat}{#UpgradeFormat}{$TooltipData.TooltipDamage:P}"
+        }
+    ]
+}

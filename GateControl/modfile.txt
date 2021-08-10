@@ -1,0 +1,6 @@
+-:
+  GateControl
+  Authors:
+    cgull (Discord: cgull#4469)
+:-
+Import GateControl.lua

@@ -1,0 +1,1 @@
+This mod is a small test to scale the sizes of enemies. Unfortunately, some hitboxes do not scale with enemy size.

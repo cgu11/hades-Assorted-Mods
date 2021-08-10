@@ -1,0 +1,1 @@
+This mod allows for the controlling of appearance/cooldown rates and costs to enter Chaos and Erebus gates. Configuration done via `GateControl.lua`.

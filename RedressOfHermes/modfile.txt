@@ -1,0 +1,3 @@
+Import "RedressOfHermes.lua"
+To "Game/Text/en/HelpText.en.sjson"
+SJSON "DisplayTextOverrides.sjson"
